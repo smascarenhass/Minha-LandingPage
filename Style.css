@@ -20,13 +20,35 @@ header{
     align-items: center;
     justify-content: space-around;
     background-color: black;
-    padding: 3%;
+    padding: 40px;
     margin: 0%;
 }
 
 header > section > div > h1{
     font-size: 60px;
     color: aliceblue;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+}
+
+.botao_voltar{
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 25px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.botao_voltar div{
+    padding: 20px;
+}
+
+.botao_voltar:hover{
+    background-color: #741934;
 }
 
 .img_lateral{
@@ -42,15 +64,27 @@ header > section > div > h1{
 }
 
 .caixa_email{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     border: 1px solid #000000;
-    width: 600px;
+    width: 200px;
     margin: 10px;
     background-color: #32282d;
+    transition: 0.2s;
+    margin-top: 5%;
+}
+
+.caixa_email div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 .caixa_email:hover{
-    width: 620px;
-    height: 140px;
+    background-color: #5f4d5a;
+    padding: 20px;
     border: 3px solid #741934;
 }
 
@@ -61,15 +95,17 @@ header > section > div > h1{
 }
 
 .img_bola{
-    width: 250px;
+    width: 140px;
     position: absolute;
-    left: 20%;
-    top: 68%;
+    left: 2px;
+    top: 160px;
     border-radius: 50%;
+    transition: 0.2s;
+    border: 3px solid #741934;
 }
 
 .img_bola:hover{
-    width: 270px;
+    width: 200px;
     border-radius: 35%;
     border: 3px solid #741934;
 }
@@ -81,6 +117,7 @@ header > section > div > h1{
 }
 
 .cards{
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
 }
@@ -90,12 +127,13 @@ header > section > div > h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 200px;
     height: 300px;
     border: 1px solid #000000;
     margin: 10px;
     text-align: center;
+    transition: 0.2s;
 }
 
 .card img{
@@ -111,5 +149,63 @@ header > section > div > h1{
     background-color: #5f4d5a;
     width: 220px;
     height: 310px;
+    border: 5px solid #741934;
+}
+
+.botao_saiba_mais{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000;
+    color: white;
+    padding: 6px;
+    transition: 0.2s;
+}
+
+
+.botao_saiba_mais:hover {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #741934;
+    color: white;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer div {
+    margin-left: 30px;
+}
+
+/* Pagina sobre */
+
+.main_sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.texto div {
+    display: flex;
+    margin: 5%;
+    color: aliceblue;
+}
+
+.img_eu-e-aninha-hp:hover{
+    width: 90%;
     border: 5px solid #741934;
 }
