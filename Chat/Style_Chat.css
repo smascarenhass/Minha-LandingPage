@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.mensagens {
+    background-color: rgb(111, 118, 124);
+    width: 1000px;
+    height: 450px;
+    flex-direction: column;
+}
+
+.campomensagembot {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.mensagembot {
+    background-color: rgb(39, 121, 121);
+    color: aliceblue;
+    display: flex;
+    width: auto;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 50px;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.digitar_e_enviar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Css Padrao*/
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+body{
+    background-image: linear-gradient(to right bottom, #000000, #32282d, #5f4d5a, #361717, #741934);
+}
+
+main{
+    display: flex;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 40px;
+    margin: 0%;
+}
+
+header > section > div > h1{
+    font-size: 60px;
+    color: aliceblue;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+}
+
+.botao_voltar{
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 25px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.botao_voltar div{
+    padding: 20px;
+}
+
+.botao_voltar:hover{
+    background-color: #741934;
+}
+
+.img_lateral{
+    height: 600px;
+    
+}
+
+.conteudo{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa_email{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #000000;
+    width: 200px;
+    margin: 10px;
+    background-color: #32282d;
+    transition: 0.2s;
+    margin-top: 5%;
+}
+
+.caixa_email div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.caixa_email:hover{
+    background-color: #5f4d5a;
+    padding: 20px;
+    border: 3px solid #741934;
+}
+
+.conteudo > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img_bola{
+    width: 140px;
+    position: absolute;
+    left: 2px;
+    top: 160px;
+    border-radius: 50%;
+    transition: 0.2s;
+    border: 3px solid #741934;
+}
+
+.img_bola:hover{
+    width: 200px;
+    border-radius: 35%;
+    border: 3px solid #741934;
+}
+
+.img_conteudo{
+    display: flex;
+    width: 70px;
+    margin: 5%;
+}
+
+.cards{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    background-color: #32282d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000000;
+    margin: 10px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.card img{
+    width: 100px;
+    margin: 10px;
+}
+
+.card p{
+    margin: 5px;
+}
+
+.cards .card:hover {
+    background-color: #5f4d5a;
+    width: 220px;
+    height: 310px;
+    border: 5px solid #741934;
+}
+
+.botao_saiba_mais{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000;
+    color: white;
+    padding: 6px;
+    transition: 0.2s;
+}
+
+
+.botao_saiba_mais:hover {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #741934;
+    color: white;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer div {
+    margin-left: 30px;
+}
+
+/* Pagina sobre */
+
+.main_sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.texto div {
+    display: flex;
+    margin: 5%;
+    color: aliceblue;
+}
+
+.img_eu-e-aninha-hp:hover{
+    width: 90%;
+    border: 5px solid #741934;
+}
